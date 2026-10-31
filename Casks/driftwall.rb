@@ -1,6 +1,6 @@
 cask "driftwall" do
-  version "0.2.0"
-  sha256 "93b70ca37f86e675b6c89087caec16905e9352bc05748acd33db453e861366e1"
+  version "0.3.0"
+  sha256 "7de90b82b594ff29778a1eef36455a3e9bb19dcf411c023bcb2f632b7c9a49cc"
 
   url "https://github.com/dhitalkamal/driftwall/releases/download/v#{version}/Driftwall.dmg",
       verified: "github.com/dhitalkamal/driftwall/"

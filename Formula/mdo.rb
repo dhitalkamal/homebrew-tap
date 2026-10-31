@@ -1,28 +1,28 @@
 class Mdo < Formula
   desc "Render markdown and vet/run its code blocks in the terminal (OSC 52 clipboard)"
   homepage "https://github.com/dhitalkamal/mdo"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.0/mdo_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "1616a5740bc7a3205b37fd2846b18373114e39a07767bc84ecec6006f6479e21"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_darwin_arm64.tar.gz"
+      sha256 "e760a95256ccb8739dd2ed08f65bfbaa52912a1bc504c3c42ea89e3a7dc00027"
     end
     on_intel do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.0/mdo_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "25622d83b7dcc69cf3b4a18bc19804a23ceaef0b6c38314f1eb18b97807ac308"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_darwin_amd64.tar.gz"
+      sha256 "bc83b444ab3f262e4e7544d9e84e453c6c121198144e144b369507398385c0eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.0/mdo_v0.2.0_linux_arm64.tar.gz"
-      sha256 "eb04bf9e3a572f2094ce2b10b68bfe57fa5053671851bb80c6576e8556f81d91"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_linux_arm64.tar.gz"
+      sha256 "4b4462171943089598c935be8feda5041da8d80a51fe4a7b84fcb536ab579be1"
     end
     on_intel do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.0/mdo_v0.2.0_linux_amd64.tar.gz"
-      sha256 "941d734502e44b2faeaa99bccb03348c66f044a568a23542a14587db025bb781"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_linux_amd64.tar.gz"
+      sha256 "09e8b5b33679699e88c88cca5940744bdbdf50cdd70c45b1913e3a6a0e5d7f6a"
     end
   end
 
