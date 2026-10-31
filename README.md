@@ -1,20 +1,16 @@
 # Homebrew Tap
 
-Homebrew casks for my apps.
+Homebrew casks and formulas for my apps.
+
+    brew tap dhitalkamal/tap
 
 ## Driftwall
 
-A free, open-source live video wallpaper for macOS — <https://github.com/dhitalkamal/driftwall>.
+Free, open-source live video wallpaper for macOS:
+<https://github.com/dhitalkamal/driftwall>
 
 ```sh
 brew install --cask dhitalkamal/tap/driftwall
-```
-
-or:
-
-```sh
-brew tap dhitalkamal/tap
-brew install --cask driftwall
 ```
 
 Driftwall is not notarized yet, so on first launch macOS Gatekeeper will block it.
@@ -24,4 +20,29 @@ Right-click **Driftwall** in Applications and choose **Open**, or run:
 xattr -dr com.apple.quarantine "/Applications/Driftwall.app"
 ```
 
-To update later: `brew upgrade --cask driftwall`.
+## parley
+
+Terminal API client: collections, environments, auth, scripting, and
+WebSocket testing in a keyboard-driven TUI:
+<https://github.com/dhitalkamal/parley>
+
+```sh
+brew install dhitalkamal/tap/parley
+```
+
+## mdo
+
+Render Markdown in the terminal and vet/run its code blocks, over SSH, tmux,
+or Termux: <https://github.com/dhitalkamal/mdo>
+
+```sh
+brew install dhitalkamal/tap/mdo
+```
+
+## updating
+
+```sh
+brew update
+brew upgrade --cask driftwall
+brew upgrade parley mdo
+```
