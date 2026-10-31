@@ -1,7 +1,6 @@
 class Mdo < Formula
   desc "Render markdown and vet/run its code blocks in the terminal (OSC 52 clipboard)"
   homepage "https://github.com/dhitalkamal/mdo"
-  version "0.2.1"
   license "MIT"
 
   on_macos do

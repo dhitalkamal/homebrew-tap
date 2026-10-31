@@ -2,8 +2,7 @@ cask "driftwall" do
   version "0.3.0"
   sha256 "7de90b82b594ff29778a1eef36455a3e9bb19dcf411c023bcb2f632b7c9a49cc"
 
-  url "https://github.com/dhitalkamal/driftwall/releases/download/v#{version}/Driftwall.dmg",
-      verified: "github.com/dhitalkamal/driftwall/"
+  url "https://github.com/dhitalkamal/driftwall/releases/download/v#{version}/Driftwall.dmg"
   name "Driftwall"
   desc "Live video wallpaper"
   homepage "https://github.com/dhitalkamal/driftwall"
