@@ -5,23 +5,23 @@ class Mdo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_darwin_arm64.tar.gz"
-      sha256 "e760a95256ccb8739dd2ed08f65bfbaa52912a1bc504c3c42ea89e3a7dc00027"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.2/mdo_v0.2.2_darwin_arm64.tar.gz"
+      sha256 "146cc8dc0bb8c1213d4347e81cb2a56a6b9f298d3bfda9402fd4cfc8896ec965"
     end
     on_intel do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_darwin_amd64.tar.gz"
-      sha256 "bc83b444ab3f262e4e7544d9e84e453c6c121198144e144b369507398385c0eb"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.2/mdo_v0.2.2_darwin_amd64.tar.gz"
+      sha256 "afd1f37fd44b1b92adf28955473a8635d9937c8fcb39698e39a0e40021be6884"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_linux_arm64.tar.gz"
-      sha256 "4b4462171943089598c935be8feda5041da8d80a51fe4a7b84fcb536ab579be1"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.2/mdo_v0.2.2_linux_arm64.tar.gz"
+      sha256 "376432961a61ef11f8de225b6cc789396011c6cd1092e2ce85e3429bbbf7d8af"
     end
     on_intel do
-      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.1/mdo_v0.2.1_linux_amd64.tar.gz"
-      sha256 "09e8b5b33679699e88c88cca5940744bdbdf50cdd70c45b1913e3a6a0e5d7f6a"
+      url "https://github.com/dhitalkamal/mdo/releases/download/v0.2.2/mdo_v0.2.2_linux_amd64.tar.gz"
+      sha256 "122aa285328f3f7bf6550c19111a070b4adc36bd4b33f56bb8f9c6c6a9fd19e9"
     end
   end
 
