@@ -5,7 +5,6 @@
 class Parley < Formula
   desc "Terminal API client: collections, environments, auth, scripting, WebSockets"
   homepage "https://github.com/dhitalkamal/parley"
-  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
